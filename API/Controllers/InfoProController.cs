@@ -35,7 +35,7 @@ namespace TrampoFacil.API.Controllers
         }
 
         //VisualizarInfoProAsync
-        [HttpGet]
+        [HttpGet("{id}")]
         public async Task<IActionResult>VisualizarInfoProAsync(Guid IdInfoPro)
         {
            var verInfoPro = await _infoProService.VisualizarInfoProAsync(IdInfoPro);

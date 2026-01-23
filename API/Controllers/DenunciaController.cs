@@ -25,7 +25,7 @@ namespace TrampoFacil.API.Controllers
         }
 
         
-        [HttpGet]
+        [HttpGet("{id}")]
         [Authorize]
         public async Task<IActionResult>VerDenunciaAsync(Guid IdDenuncia)
         {
