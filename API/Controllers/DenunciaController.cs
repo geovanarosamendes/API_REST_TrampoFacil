@@ -5,6 +5,8 @@ using TrampoFacil.Domain.Interfaces.IServices;
 
 namespace TrampoFacil.API.Controllers
 {
+    [ApiController]
+    [Route("api/Denuncia")]
     public class DenunciaController : ControllerBase
     {
         private readonly IDenunciaService _denunciaService;

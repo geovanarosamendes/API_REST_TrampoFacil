@@ -5,6 +5,8 @@ using TrampoFacil.Domain.Interfaces.IServices;
 
 namespace TrampoFacil.API.Controllers
 {
+    [ApiController]
+    [Route("api/InformacaoProfissional")]
     public class InfoProController : ControllerBase
     {
         private readonly IInfoProService _infoProService;
