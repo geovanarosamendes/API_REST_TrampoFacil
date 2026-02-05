@@ -1,4 +1,4 @@
-# 💼 TrampoFácil
+# 💼 TrampoFácil -> Marketplace de serviços
 
 **TrampoFácil** é uma plataforma que conecta profissionais autônomos a oportunidades de trabalho, facilitando a criação de anúncios, visualização de serviços e gerenciamento de perfis — tudo com segurança e praticidade.
 
